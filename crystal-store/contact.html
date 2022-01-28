@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Store: Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Crystal Store</h1>
+        <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="">shop</a></li>
+            <li><a href="contact.html">contact us</a></li>
+        </ul>
+        </nav>
+        <input type="search" placeholder="search...">
+    </header>
+
+    <aside>
+        <h2>Shop by:</h2>
+
+        <section>
+            <h3>Color</h3>
+            <hr>
+            <ul>
+                <li>All Colors</li>
+                <li>Pink</li>
+                <li>Blue</li>
+                <li>Clear</li>
+                <li>Purple</li>
+                <li>Black</li>
+                <li>Green</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Price <span>($)</span></h3>
+            <hr>
+            <ul>
+                <li>1 - 2</li>
+                <li>3 - 5</li>
+                <li>6 - 10</li>
+                <li>11 - 15</li>
+                <li>16 +</li>
+            </ul>
+        </section>
+    </aside>
+
+    <main>
+        <h2>Contact Us:</h2>
+
+        <form>
+
+            <div class="inline">
+                <label for="name">Name:</label><input type="text" placeholder="enter your name" id="name" name="name" class="messages">
+            </div>
+
+            <div class="inline">
+                <label for="email">Email:</label><input type="text" placeholder="enter your email" id="email" name="email" class="messages">
+            </div>
+
+            <div class="inline">
+                <label for="message">Message:</label><textarea cols="30" rows="5" placeholder="enter your message" id="message" name="message" class="messages"></textarea>
+            </div>
+
+            <div class="inline">
+                <label for="subject">Subject:</label>
+                <input type="text" list="subjects" id="subject" placeholder="enter your subject" class="messages">
+                <datalist id="subjects">
+                    <option value="returns">
+                    <option value="faulty item">
+                    <option value="delivery">
+                    <option value="order tracking">
+                    <option value="advice">
+                    <option value="other">
+                </datalist>
+            </div>
+
+            <div>
+                <p>Subscribe to future offers by:</p>
+                <label for="newsletter">Newsletter</label>
+                <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+                <label for="email">Email</label>
+                <input type="checkbox" id="email" name="subscribe" value="email">
+                <label for="post">Post</label>
+                <input type="checkbox" id="post" name="subscribe" value="post"> 
+            </div>
+
+            <div>
+                <p>How would you like us to respond?</p>
+                <label for="phoneResponse">Phone</label>
+                <input type="radio" id="phoneResponse" name="response" value="phone">
+                <label for="emailResponse">Email</label>
+                <input type="radio" id="emailResponse" name="response" value="email">
+            </div>
+
+            <div>
+                <input type="submit">
+                <input type="reset">
+                <!-- <button type="submit">Submit</button> -->
+            </div>
+
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380513.715995301!2d-88.0121484340794!3d41.833392503391295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1626416928246!5m2!1sen!2sus" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+
+    </main>
+
+    <footer>
+        <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="">shop</a></li>
+            <li><a href="contact.html">contact us</a></li>
+        </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>

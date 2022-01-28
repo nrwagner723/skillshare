@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Px to Em Calculator</title>
+
+  <style>
+    body {
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.3em;
+    }
+
+    div {
+      background: rgb(240, 201, 221);
+      margin: 1.5em;
+      padding: 1.2em;
+      border-radius: 10px;
+    }
+
+    input {
+      margin: 1.2em 0;
+      width: 100%;
+      font-size: 2em;
+      text-align: center;
+    }
+
+    button {
+      border-radius: 10px;
+      background: rgb(132, 192, 189);
+      width: 40%;
+      font-size: 1.1em;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div>
+    <label for="parent">Parent size (px)</label><br>
+    <input type="number" id="parent">
+    <label for="required">Required size (px)</label><br>
+    <input type="number" id="required">
+
+    <button>Convert &#10227;</button>
+  </div>
+
+  <div>
+    <p>Result: <span id="result">0</span> em</p>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

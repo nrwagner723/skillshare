@@ -1,0 +1,21 @@
+html {
+    background: rgb(240, 235, 235);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(240, 235, 235);
+    margin: 0 auto;
+    color: #404040;
+    text-align: center;
+}
+
+article {
+    margin: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

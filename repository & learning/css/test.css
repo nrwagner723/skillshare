@@ -1,0 +1,28 @@
+body{
+	background-color: #4E2B47;
+}
+h1{
+	font-size: 30px;
+	color: hotpink;
+	}
+
+	h2{
+	font-size: 20px;
+	color: teal;
+	}
+
+	.big{
+	font-size: 60px;
+	}
+
+	.uppercase{
+	text-transform: uppercase;
+	}
+
+	.big.uppercase{
+	color: navy;
+	}
+
+	h1 span{
+	color: teal;
+	}
